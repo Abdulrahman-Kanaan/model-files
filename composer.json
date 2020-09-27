@@ -1,0 +1,15 @@
+{
+    "name": "akanaan/model-files",
+    "description": "A package for laravel to help attaching files to models (images, pdfs, ... etc).",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AbdulrahmanKanaan",
+            "email": "abdulrahman.kanaan44@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.1"
+    }
+}
