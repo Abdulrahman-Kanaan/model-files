@@ -11,5 +11,22 @@
     "require": {},
     "require-dev": {
         "orchestra/testbench": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AKanaan\\ModelFiles\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AKanaan\\ModelFiles\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AKanaan\\ModelFiles\\Providers\\ModelFilesServiceProvider"
+            ]
+        }
     }
 }
