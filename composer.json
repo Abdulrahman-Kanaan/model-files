@@ -29,5 +29,6 @@
                 "AKanaan\\ModelFiles\\Providers\\ModelFilesServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable",
 }
