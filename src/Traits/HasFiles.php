@@ -17,7 +17,6 @@ trait HasFiles
     |--------------------------------------------------------------------------
     |
     | this array contains many sub-arrays that should have the following keys
-    | type => "single" | "array" // default is single
     | disk => // choose disk from available disks, default is "public"
     | path => // path in the disk, default is root folder of the disk "/" 
     |
