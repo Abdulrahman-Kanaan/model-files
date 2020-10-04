@@ -1,6 +1,7 @@
 {
     "name": "akanaan/model-files",
     "description": "A package for laravel to help attaching files to models (images, pdfs, ... etc).",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
