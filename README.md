@@ -10,6 +10,11 @@ Use the package manager [composer](https://getcomposer.org/) to install Laravel 
 composer require akanaan/model-files
 ```
 
+Run migrate to create tables
+```bash
+php artisan migrate
+```
+
 ## Usage
 
 The package is very easy to use, just add the trait `HasFiles` to the model and create settings array for the files
